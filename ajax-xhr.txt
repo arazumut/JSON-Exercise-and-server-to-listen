@@ -1,0 +1,17 @@
+Ajax -> (A)synchronous (J)avascript (a)nd (X)ML -> Serverı bloklamadan HTTP request göndermek için 
+(ajax-> js içerisinde oluşturulmuş obje) asenkron metot oluşturur.
+
+
+ready states :
+0: request not initialized
+1: server connection established
+2: request received
+3: processing request
+4: request finished and response is ready
+
+
+status :
+200 : OK
+403 : Forbidden
+404 : Not Found
+
