@@ -15,3 +15,11 @@ status :
 403 : Forbidden
 404 : Not Found
 
+Local Storage / Session Storage
+
+Local storage -> Tarayıcı kapansa bile dataları kullanıcı tarayıcısında tutar. (Her türlü tutar, silmediğin sürece)
+setItem(),getItem(),removeItem(),clear(),
+JSON.stringfy() -> Tarayıcıya bir dizi datasını ekledikten sonra tarayıcıda array şeklinde gözükmez string şekilde gözükür.
+Tarayıcıda array şeklinde gözükmesi için kullanıyoruz.
+JSON.parse() -> tarayıcıdan aldığımız veriyi string halden obje haline dizi haline getiriyor.
+Session storage -> Tarayıcı kapanınca datalar kaybolur, F5 veya farklı sekmeye gidip gelme işlemlerinde data kaybolmaz.
